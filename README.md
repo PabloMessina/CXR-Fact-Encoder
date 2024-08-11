@@ -14,7 +14,7 @@ Advancing representation learning in specialized fields like medicine remains ch
 
 ## Fact Extraction
 
-![Imgur](https://imgur.com/1kYUht6)
+![image](https://github.com/user-attachments/assets/cdcbd036-27dd-49dd-823b-dcdc14386ca9)
 
 Pretrained T5 Fact Extractor model available on HuggingFace: https://huggingface.co/pamessina/T5FactExtractor
 
@@ -24,7 +24,7 @@ Pretrained Fact Encoder model (CXRFE) available on HuggingFace: https://huggingf
 
 ## CXRFEScore
 
-![Imgur](https://imgur.com/UZDBRgs)
+![image](https://github.com/user-attachments/assets/00ab2361-0315-42f5-a211-a8559c98cb8b)
 
 ## TODO
 
