@@ -32,4 +32,5 @@ Pretrained Fact Encoder model (CXRFE) available on HuggingFace: https://huggingf
 - [ ] Publish all the data used in the paper on PhysioNet: https://physionet.org/
 - [ ] Publish training scripts for the Fact Extractor and Fact Encoder models. (NOTE: Technically, all the code is already available in my PhD thesis repository [here](https://github.com/PabloMessina/MedVQA). However, that repository includes way too many things beyond the scope of this paper, so I'm planning to release a more focused version of the code here in the near future.)
 - [ ] Release multiple pretrained versions of CXR Fact Encoder (CXRFE) on HuggingFace matching the description in the paper. (NOTE: Right now you can use https://huggingface.co/pamessina/CXRFE, which is a version trained with slightly more NLI data than the best model in the paper. I'm planning to release the exact models from the paper soon.)
+- [ ] Improve documentation of released models on HuggingFace.
 
