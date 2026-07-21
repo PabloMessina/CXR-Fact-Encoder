@@ -1,0 +1,21 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Local metric / HF caches (if created under the repo)
+.cache/
+**/sent_to_facts.pkl
+**/fact_to_embedding.pkl
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
