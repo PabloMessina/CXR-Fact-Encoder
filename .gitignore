@@ -15,6 +15,9 @@ venv/
 **/sent_to_facts.pkl
 **/fact_to_embedding.pkl
 
+# Local scratch (e.g. HF model-card drafts)
+tmp/
+
 # OS / editor
 .DS_Store
 .idea/

@@ -5,6 +5,7 @@
 [![PyPI](https://img.shields.io/pypi/v/cxrfescore.svg)](https://pypi.org/project/cxrfescore/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PabloMessina/CXR-Fact-Encoder/blob/main/notebooks/cxrfescore_demo.ipynb)
 [![Hugging Face — CXRFE](https://img.shields.io/badge/HuggingFace-CXRFE-yellow?logo=huggingface)](https://huggingface.co/pamessina/CXRFE)
+[![Hugging Face — T5FactExtractor](https://img.shields.io/badge/HuggingFace-T5FactExtractor-yellow?logo=huggingface)](https://huggingface.co/pamessina/T5FactExtractor)
 [![Presentation](https://img.shields.io/badge/YouTube-Presentation-FF0000?logo=youtube)](https://youtu.be/Hh1Avz-Dkfs)
 [![Slides](https://img.shields.io/badge/Google-Slides-F4B400?logo=googledrive)](https://docs.google.com/presentation/d/1ztuO_PwfHrWFvjeKC4aDrdvl2yiCAk1BcLQtSq7hhfY/edit?usp=sharing)
 [![Poster](https://img.shields.io/badge/Google-Poster-0F9D58?logo=googledrive)](https://drive.google.com/file/d/1cMgEzYDtipbl4Mrdpv0Hr86l1E5J36QV/view?usp=sharing)
@@ -13,6 +14,8 @@
 
 This repo is the **paper hub**: models, metric demos, and links. The installable CXRFEScore metric lives in a separate package:
 
+- **Fact extractor:** [`pamessina/T5FactExtractor`](https://huggingface.co/pamessina/T5FactExtractor)
+- **Fact encoder (CXRFE):** [`pamessina/CXRFE`](https://huggingface.co/pamessina/CXRFE)
 - **Package repo:** [PabloMessina/CXRFEScore](https://github.com/PabloMessina/CXRFEScore)
 - **PyPI:** [`pip install cxrfescore`](https://pypi.org/project/cxrfescore/)
 
@@ -112,4 +115,4 @@ Paper: [ACL Anthology](https://aclanthology.org/2024.findings-acl.236/) · [PDF]
 - [ ] Publish all the data used in the paper on PhysioNet: https://physionet.org/
 - [ ] Publish training scripts for the Fact Extractor and Fact Encoder models. (NOTE: Technically, all the code is already available in my PhD thesis repository [here](https://github.com/PabloMessina/MedVQA). However, that repository includes way too many things beyond the scope of this paper, so I'm planning to release a more focused version of the code here in the near future.)
 - [ ] Release multiple pretrained versions of CXR Fact Encoder (CXRFE) on HuggingFace matching the description in the paper. (NOTE: Right now you can use https://huggingface.co/pamessina/CXRFE, which is a version trained with slightly more NLI data than the best model in the paper. I'm planning to release the exact variants of CXRFE from the paper soon.)
-- [ ] Improve documentation of released models on HuggingFace.
+- [x] Improve documentation of released models on HuggingFace — model cards for [`pamessina/T5FactExtractor`](https://huggingface.co/pamessina/T5FactExtractor) and [`pamessina/CXRFE`](https://huggingface.co/pamessina/CXRFE).
